@@ -1,0 +1,77 @@
+/* .home-tab-sticky.home-tab-with-header {
+  top: -75px;
+}
+.home-tab-sticky.invoice-bg {
+  background-image: url("../../../../../public/home-header-bg.svg");
+}
+.home-tab-sticky {
+  background-repeat: repeat-x;
+  position: sticky;
+  top: -1px;
+  z-index: 3;
+  background-color: #fff;
+  background-clip: padding-box;
+}
+.mx-n5 {
+  margin-right: -20px !important;
+  margin-left: -20px !important;
+} */
+
+.text-medium,
+.recommended-addon-table.bill-violated-table th,
+.banking-filter .dropdown-toggle,
+.bank-accounts-filter .ac-box .ac-selected,
+.new-approvals .standard-approval-th,
+.card-details:hover .text-hightlight {
+  font-weight: 500;
+}
+
+.home-org-logo {
+  border: 1px solid #ebeaf2;
+  border-radius: 8px;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-white,
+.item-creation-in-parent .item-creation .primary-info {
+  background-color: var(--zf-white-1) !important;
+}
+.bg-white {
+  --zf-bg-opacity: 1;
+  background-color: rgba(var(--zf-white-rgb), var(--zf-bg-opacity)) !important;
+}
+.me-3 {
+  margin-right: 10px !important;
+}
+.mt-3 {
+  margin-top: 10px !important;
+}
+.d-inline-flex {
+  display: inline-flex !important;
+}
+
+svg.icon.fill-grey-shaded {
+  fill: #838195;
+}
+svg.icon.icon-lg {
+  height: 18px;
+  width: 18px;
+}
+svg.icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+.align-center {
+  margin: auto;
+}
+svg {
+  vertical-align: baseline;
+}
+img,
+svg {
+  vertical-align: middle;
+}

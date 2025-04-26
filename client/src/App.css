@@ -1,0 +1,74 @@
+/* Primary color: #408dfb */
+/* Iconic solution Full page background-color: #f1f2f3 */
+/* zoho navbar background - #f7f7fe */
+/* zoho navbar search background - #ededf7 */
+/* zoho --quick-search-border: #dddfe9; */
+/* zoho navbar left top, bottom & item hover background - #181c2e; */
+/* zoho --sidebar-bg: #21263c; */
+/* zoho --gstab-border: #454d74; */
+/* zoho --gstab-progress-bar: var(--zf-grey-13); --zf-black-6: #2d324a; */
+/* zoho --gstab-bg: var(--zf-black-6); --zf-grey-13: #495569; */
+/* zoho Font - "Inter", "Source Sans Pro", Helvetica, Arial, sans-serif; */
+/* zoho --zf-link-color: #408dfb; */
+
+/* odoo main color #714b67 */
+/* odoo some bold text color #017e84 */
+
+/* Border color: #b6d3fe;
+    border: 1px solid #eaedfa;
+    border: 1px solid #408dfb; */
+
+/* .gstask-form .gs-selected-template::before {
+    width: 14px;
+    height: 14px;
+    content: "";
+    position: absolute;
+    right: -5px;
+    top: -4px;
+    background: url(images/svgs/gs-tick-circled-5cd4e7b01b.svg) no-repeat;
+} */
+
+/* background-image: radial-gradient(#e0e2eb 5%, transparent 11%), radial-gradient(#e0e2eb 5%, transparent 11%); */
+
+/* @supports (scrollbar-width:auto) {
+    * {
+        scrollbar-color: var(--scrollbar-color-thumb) transparent;
+        scrollbar-width: auto;
+    }
+} */
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+  width: 0;
+  scrollbar-color: rgba(131, 129, 149, 0.6);
+}
+.scroll-on-hover {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: rgba(0, 0, 0, 0.4) transparent;
+  position: relative;
+}
+
+/* Hide scrollbar initially (WebKit) */
+.scroll-on-hover::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scroll-on-hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Show scrollbar on hover (WebKit) */
+.scroll-on-hover:hover::-webkit-scrollbar-thumb {
+  opacity: 1;
+}

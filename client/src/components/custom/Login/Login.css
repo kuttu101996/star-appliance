@@ -1,0 +1,33 @@
+.login-bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../../public/login.jpg");
+  /* background-image: url("../../../../public/bg-gr.svg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.login-main {
+  background-color: rgba(43, 43, 43, 0.456);
+}
+.back-drop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  backdrop-filter: blur(10px);
+  background-color: #d0d0d0d7;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
